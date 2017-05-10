@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B02278A1-8E25-460F-B5FF-EA85456EBE8C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Me.Home", "Me.Home\Me.Home.csproj", "{00361F20-61F5-44E2-A1F6-52EF6C559A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Me.Api", "Me.Api\Me.Api.csproj", "{502B44E2-5734-41D5-8564-D2C3B6E2B5FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00361F20-61F5-44E2-A1F6-52EF6C559A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00361F20-61F5-44E2-A1F6-52EF6C559A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00361F20-61F5-44E2-A1F6-52EF6C559A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00361F20-61F5-44E2-A1F6-52EF6C559A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502B44E2-5734-41D5-8564-D2C3B6E2B5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502B44E2-5734-41D5-8564-D2C3B6E2B5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502B44E2-5734-41D5-8564-D2C3B6E2B5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502B44E2-5734-41D5-8564-D2C3B6E2B5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
