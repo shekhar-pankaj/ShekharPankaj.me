@@ -1,0 +1,13 @@
+*.suo
+*.puo
+*.user
+*.dll
+*.pdb
+*.dbmdl
+*.cache
+
+.vs
+_ReSharper.*
+bin
+obj
+packages

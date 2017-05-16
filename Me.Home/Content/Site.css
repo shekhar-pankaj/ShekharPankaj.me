@@ -1,24 +1,50 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿body{
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+/*Bootstrap Overrides*/
+
+.navbar{
+    margin-bottom:0;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+/*Custom Overrides*/
+.no-padding-left
+{
+    padding-left:0;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.no-padding-right{
+    padding-right:0;
 }
+
+.no-padding-top{
+    padding-top:0;
+}
+
+.no-padding-bottom{
+    padding-bottom:0;
+}
+
+.no-margin-left
+{
+    margin-left:0;
+}
+
+.no-margin-right{
+    margin-right:0;
+}
+
+.no-margin-top{
+    margin-top:0;
+}
+
+.no-margin-bottom{
+    margin-bottom:0;
+}
+
+/*Font face*/
+/*@font-face {
+    font-family: 'Yugurian';
+    src: url('../fonts/Yugurian.ttf') format('truetype');
+}*/
+

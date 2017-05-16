@@ -3,40 +3,59 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - Life Long Learner</title>
     @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/font-awesome")
+    @Styles.Render("~/bundles/LayoutViewStyles")
+
+    @RenderSection("Styles", false)
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+    <div id="divPageWrapper">
+        <div id="divHeadWrapper" class="navbar navbar-default navbar-fixed-top">
+            @*<div id="divLogoWrapper" class="col-xs-4 col-lg-2 no-padding-left no-padding-right" >
+                    <span>Shekhar Pankaj</span>
+                </div>*@
+            <div class="col-xs-12 col-lg-4 col-lg-offset-4 no-padding-left no-padding-right">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarHeaderCollapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbarHeaderCollapse" class="">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="~/Home">Home</a> </li>
+                        <li><a href="~/Home/AboutMe">About Me</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
+        </div>
+        <div id="divContentWrapper">
+            <div class="col-xs-push-12 col-lg-4 ">
+                <div class="row img-responsive">
+                    <img class="img-thumbnail" src="~/Uploads/1409162197_172625.ico">
+                    <div id="divUserQuickFollowButtons">
+                        <span class="quick-subscribe-thumbnail facebook-handler"><i class="fa fa-facebook"></i></span>
+                        <span class="quick-subscribe-thumbnail google-plus-handler"><i class="fa fa-google-plus"></i></span>
+                        <span class="quick-subscribe-thumbnail twitter-handler"><i class="fa fa-twitter"></i></span>
+                        <span class="quick-subscribe-thumbnail linkedin-handler"><i class="fa fa-linkedin"></i></span>
+                        <span class="quick-subscribe-thumbnail quora-handler"><i class="fa fa-quora"></i></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-8">
+                @RenderBody()
             </div>
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+
+    @* Scripts area, Include Bundles here *@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
