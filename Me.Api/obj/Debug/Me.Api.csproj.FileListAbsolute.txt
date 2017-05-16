@@ -29,3 +29,4 @@ D:\Projects\ShekharPankaj.me\Me.Api\bin\System.Web.WebPages.Razor.xml
 D:\Projects\ShekharPankaj.me\Me.Api\bin\Antlr3.Runtime.pdb
 D:\Projects\ShekharPankaj.me\Me.Api\obj\Debug\Me.Api.dll
 D:\Projects\ShekharPankaj.me\Me.Api\obj\Debug\Me.Api.pdb
+D:\Projects\ShekharPankaj.me\Me.Api\obj\Debug\Me.Api.csprojResolveAssemblyReference.cache
