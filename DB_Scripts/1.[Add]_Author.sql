@@ -1,0 +1,11 @@
+CREATE TABLE Author
+( 
+	AuthorId INT IDENTITY(1,1) PRIMARY KEY,
+	FullName  NVARCHAR(255) NOT NULL,
+	EmailId  NVARCHAR(255)  NULL,
+	PhoneNumber NVARCHAR(50) NULL,
+	AuthorAvatarFileName NVARCHAR(255)  NULL,
+	RowCreatedTimeStamp DATETIME NOT NULL DEFAULT GETDATE()
+)
+
+
