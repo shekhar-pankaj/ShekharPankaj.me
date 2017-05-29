@@ -60,12 +60,12 @@
 
 .user-name{
      font-size:20px;
-     font-size:bold;
+     font-weight:bold;
 }
 
 .user-designation{
-    font-size:18px;
-    font-size:bold;
+    font-size:16px;
+    font-weight:normal;
 }
 
 .title-color{
@@ -77,10 +77,3 @@
 }
 
  
-
-/*Font face*/
-/*@font-face {
-    font-family: 'Yugurian';
-    src: url('../fonts/Yugurian.ttf') format('truetype');
-}*/
-

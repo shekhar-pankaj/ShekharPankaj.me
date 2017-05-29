@@ -23,4 +23,3 @@ D:\Projects\ShekharPankaj.me\Me.Home\bin\Antlr3.Runtime.pdb
 D:\Projects\ShekharPankaj.me\Me.Home\bin\Newtonsoft.Json.xml
 D:\Projects\ShekharPankaj.me\Me.Home\obj\Debug\Me.Home.dll
 D:\Projects\ShekharPankaj.me\Me.Home\obj\Debug\Me.Home.pdb
-D:\Projects\ShekharPankaj.me\Me.Home\obj\Debug\Me.Home.csprojResolveAssemblyReference.cache

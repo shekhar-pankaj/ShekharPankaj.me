@@ -13,32 +13,20 @@ div#divContentWrapper {
     margin-top: 50px;
 }
 
-/*div#divContentWrapper #divUserQuickFollowButtons {
-  position: absolute; 
-    display: block;
-     bottom: 0px; 
-    width: 100%;
-    margin: auto;
-}*/
-
 div#divContentWrapper #divUserQuickFollowButtons span.quick-subscribe-thumbnail {
     width: 30px;
     height: 30px;
     border-radius: 15px;
-    /*background:#ffffff;*/
+    display:  inline-block;
+    cursor: pointer;
 }
 
 div#divContentWrapper #divUserQuickFollowButtons span.quick-subscribe-thumbnail i {
-   color: #ffffff;
-    padding: 15px;
-    font-size: 15px;
-    /* width: 40px; */
-    /* height: 40px; */
-    border-radius: 20px;
-    /* font-size: 25px; */
-    /* text-align: center; */
-    /* margin-right: 10px; */
-    /* padding-top: 15%; */
+    color: #ffffff;
+    font-size: 19px;
+    height: 100%;
+    width: 100%;
+    padding-top: 15%;
 }
 
 div#divContentWrapper #divUserQuickFollowButtons span.quick-subscribe-thumbnail.facebook-handler {
@@ -66,7 +54,9 @@ div#divContentWrapper #divUserQuickFollowButtons span.quick-subscribe-thumbnail.
 }
 
 div#divContentWrapper #divUserQuickFollowButtons{
-        text-align: center
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
