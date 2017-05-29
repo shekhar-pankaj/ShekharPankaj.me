@@ -59,7 +59,15 @@ div#divContentWrapper #divUserQuickFollowButtons span.quick-subscribe-thumbnail.
 
 div#divContentWrapper #divUserQuickFollowButtons span.quick-subscribe-thumbnail.quora-handler {
     background: #dd4b39;
-            }
+}
+
+div#divContentWrapper #divUserQuickFollowButtons span.quick-subscribe-thumbnail.github-handler {
+    background: #000000;
+}
+
+div#divContentWrapper #divUserQuickFollowButtons{
+        text-align: center
+}
 
 
 #divContentWrapper .img-rounded {
