@@ -12,5 +12,10 @@ namespace Me.Home.Controllers
         {
             return View();
         }
+
+        public ViewResult Feed()
+        {
+            return View();
+        }
     }
 }

@@ -8,11 +8,15 @@
     @Styles.Render("~/Content/font-awesome")
     @Styles.Render("~/bundles/LayoutViewStyles")
 
+    <script type="text/javascript">var __tcaExcludeHostedCss=true;</script>
+    <script type="text/javascript" src="http://typecast.com/project_css/FV7wqwPkzV/68136959496a54.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+
     @RenderSection("Styles", false)
 </head>
 <body>
-    <div id="divPageWrapper">
-        <div id="divHeadWrapper" class="navbar navbar-default navbar-fixed-top">
+    <div id="divPageWrapper" class="col-xs-12 no-padding-left no-padding-right">
+        <div id="divHeadWrapper" class="navbar navbar-default navbar-fixed-top no-padding-left no-padding-right">
             @*<div id="divLogoWrapper" class="col-xs-4 col-lg-2 no-padding-left no-padding-right" >
                     <span>Shekhar Pankaj</span>
                 </div>*@
@@ -32,22 +36,25 @@
                 </div>
             </div>
         </div>
-        <div id="divContentWrapper">
-            <div class="col-xs-push-12 col-lg-4 ">
+        <div id="divContentWrapper" class="col-xs-12 no-padding-left no-padding-right">
+            <div class="col-xs-push-12 col-lg-3">
                 <div class="row img-responsive">
-                    <img class="img-thumbnail" src="~/Uploads/1409162197_172625.ico">
-                    <div id="divUserQuickFollowButtons">
+                    <img class="img-rounded" src="~/Uploads/1409162197_172625.ico">
+                    <span class="user-name title-color display-block text-align-center font-family-Hallelujah">Shekhar Pankaj</span>
+                    <span class="user-designation mute-color display-block text-align-center font-family-Hallelujah">Senior Software Engineer</span>
+                    <div id="divUserQuickFollowButtons" class="col-xs-10 col-sm-offset-1">
                         <span class="quick-subscribe-thumbnail facebook-handler"><i class="fa fa-facebook"></i></span>
                         <span class="quick-subscribe-thumbnail google-plus-handler"><i class="fa fa-google-plus"></i></span>
-                        <span class="quick-subscribe-thumbnail twitter-handler"><i class="fa fa-twitter"></i></span>
-                        <span class="quick-subscribe-thumbnail linkedin-handler"><i class="fa fa-linkedin"></i></span>
-                        <span class="quick-subscribe-thumbnail quora-handler"><i class="fa fa-quora"></i></span>
+                        <span class="quick-subscribe-thumbnail twitter-handler "><i class="fa fa-twitter"></i></span>
+                        <span class="quick-subscribe-thumbnail linkedin-handler "><i class="fa fa-linkedin"></i></span>
+                        <span class="quick-subscribe-thumbnail quora-handler "><i class="fa fa-quora"></i></span>
                     </div>
                 </div>
-
             </div>
-            <div class="col-lg-8">
-                @RenderBody()
+            <div class="col-lg-9 no-padding-left no-padding-right" id="divSubContentWrapper"> 
+                <div class="container col-xs-12 no-padding-left no-padding-right">
+                    @RenderBody()
+                </div>
             </div>
         </div>
     </div>

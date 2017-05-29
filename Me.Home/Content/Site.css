@@ -42,6 +42,42 @@
     margin-bottom:0;
 }
 
+.font-family-Hallelujah{
+    font-family: "Gloria Hallelujah";
+}
+
+.display-block{
+    display:block;
+}
+
+.display-inline-block{
+    display:inline-block;
+}
+
+.text-align-center{
+    text-align:center;
+}
+
+.user-name{
+     font-size:20px;
+     font-size:bold;
+}
+
+.user-designation{
+    font-size:18px;
+    font-size:bold;
+}
+
+.title-color{
+    color:#2b34cd;
+}
+
+.mute-color{
+  color:#cccccc;
+}
+
+ 
+
 /*Font face*/
 /*@font-face {
     font-family: 'Yugurian';

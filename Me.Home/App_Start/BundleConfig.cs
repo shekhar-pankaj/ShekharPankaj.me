@@ -27,6 +27,10 @@ namespace Me.Home
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+          
+
+
             bundles.Add(new StyleBundle("~/Content/font-awesome").Include(
                 "~/fonts/font-awesome-4.7.0/css/font-awesome.css"));
 
