@@ -11,3 +11,7 @@ _ReSharper.*
 bin
 obj
 packages
+*.txt
+Me.Api/obj/Debug/Me.Api.dll
+*.dll
+*.pdb
