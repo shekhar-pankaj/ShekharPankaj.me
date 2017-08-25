@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Life Long Learner</title>
+    <title>Code Mechanic</title>
     @Styles.Render("~/Content/css")
     @Styles.Render("~/Content/font-awesome")
     @Styles.Render("~/bundles/LayoutViewStyles")
@@ -29,7 +29,7 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div id="navbarHeaderCollapse" class="">
+                <div id="navbarHeaderCollapse" class="font-family-Hallelujah">
                     <ul class="nav navbar-nav navbar-left">
                         <li><a href="~/Home">Home</a> </li>
                         <li><a href="~/Home/AboutMe">About Me</a></li>
@@ -38,7 +38,7 @@
             </div>
         </div>
         <div id="divContentWrapper" class="col-xs-12 no-padding-left no-padding-right">
-            <div class="col-xs-push-12 col-lg-3 no-padding-left no-padding-right">
+            <div class="col-xs-push-12 col-xs-12 col-md-3 no-padding-left no-padding-right" id="divLeftAside">
                 <div class="img-responsive">
                     <img class="img-rounded" src="~/Uploads/1409162197_172625.ico">
                     <span class="user-name title-color display-block text-align-center font-family-Hallelujah">Shekhar Pankaj</span>
@@ -54,8 +54,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-9 no-padding-left no-padding-right " id="divSubContentWrapper">
-                <div class="container col-xs-12 no-padding-left no-padding-right">
+            <div class="col-xs-12 col-xs-pull-12 col-md-9 no-padding-left no-padding-right " id="divSubContentWrapper">
+                <div class="container col-xs-12 custom-padding-left-5 custom-padding-right-5">
                     @RenderBody()
                 </div>
             </div>
