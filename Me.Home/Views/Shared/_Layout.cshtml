@@ -17,11 +17,11 @@
 <body>
     <div id="divPageWrapper" class="col-xs-12 no-padding-left no-padding-right">
         <div id="divHeadWrapper" class="navbar navbar-default navbar-fixed-top no-padding-left no-padding-right">
-            <div id="divLogoWrapper" class="col-sm-4 no-padding-left no-padding-right cursor-pointer">
+            <div id="divLogoWrapper" class="col-md-4 no-padding-left no-padding-right cursor-pointer">
                 <i class="fa fa-code"></i>
                 <span class="user-designation display-block  font-family-Hallelujah">Code Mechanic</span>
             </div>
-            <div class="col-xs-12 col-sm-8 no-padding-left no-padding-right">
+            <div class="col-md-8 no-padding-left no-padding-right">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarHeaderCollapse">
                         <span class="icon-bar"></span>
@@ -29,7 +29,7 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div id="navbarHeaderCollapse" class="font-family-Hallelujah">
+                <div id="navbarHeaderCollapse" class="collapse font-family-Hallelujah">
                     <ul class="nav navbar-nav navbar-left">
                         <li><a href="~/Home">Home</a> </li>
                         <li><a href="~/Home/AboutMe">About Me</a></li>
@@ -39,7 +39,8 @@
         </div>
         <div id="divContentWrapper" class="col-xs-12 no-padding-left no-padding-right">
             <div class="col-xs-push-12 col-xs-12 col-md-3 no-padding-left no-padding-right" id="divLeftAside">
-                <div class="img-responsive">
+                @RenderSection("LeftAsideOptionalSection",required:false)
+                <div id="divProfileSignature"  class="img-responsive">
                     <img class="img-rounded" src="~/Uploads/1409162197_172625.ico">
                     <span class="user-name title-color display-block text-align-center font-family-Hallelujah">Shekhar Pankaj</span>
                     <span class="user-designation mute-color display-block text-align-center font-family-Hallelujah">Code Mechanic</span>
