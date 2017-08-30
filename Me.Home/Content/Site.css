@@ -68,12 +68,52 @@
     font-weight:normal;
 }
 
-.title-color{
-    color:#2b34cd;
+.navbar-default {
+    background-color: #d6f4be;
+    /*border-bottom: 1px solid #546b4b;*/
 }
 
-.mute-color{
-  color:#cccccc;
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background: inherit;
+    border: none;
 }
+
+.navbar-default .navbar-toggle {
+    background: inherit;
+    border: none;
+}
+
+ .navbar-default .navbar-toggle .icon-bar {
+     background-color: #6f6c02;
+     font-weight: bold;
+ }
+
+.navbar-default .navbar-nav > li > a {
+    color: #6f6c02;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    font-style: italic;
+    transition: all .25s linear;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.custom-padding-left-5 {
+    padding-left: 10px;
+}
+
+.custom-padding-right-5 {
+    padding-right: 10px;
+}
+
+
+/*courolo*/
+
+
+
 
  
